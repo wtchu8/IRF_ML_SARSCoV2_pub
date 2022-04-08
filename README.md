@@ -1,23 +1,20 @@
-# NIH_COVID_Radiomics-ClinPath
+# IRF_ML_SARSCoV2_pub
 Traditional machine learning to classify SARs-CoV-2 vs. Mock in NHP
-Input Data: Radiomic features and clinical pathology measures
 
-analysis_status contains files that are concatenated to create the current analysis note
+## Project Summary
 
-# Project Summary
-
-#### Goal
+### Goal
 - Determine features most relevant to prediction of SARS-CoV-2 vs. Mock
 - Build a ML model for automatic classification of SARS-CoV-2 vs. Mock
     - Build a foundation for future work in severity classification & translation to humans
 
-#### Data
+### Data
 - 12 SARs-CoV-2 & 8 Mock Cynomolgus monkeys
 - 4 time points: BL, 2, 4, & 6 days post-infection
 - Radiomics measures calculated off of CT scan of lung & whole body
 - Clinical pathology and immunology measures calculated off of blood sample analyses
 
-#### Approach & Notebook Organization
+### Approach & Notebook Organization
 1) Preprocessing\
     a) Reshape & reformat radiomics data\
         - Calculate change from baseline\
@@ -37,3 +34,10 @@ analysis_status contains files that are concatenated to create the current analy
     - Evaluation of performance
     - Effect of confounding variables
 5) Comparison of model performance
+
+### Citations
+#### When referencing this work, please cite:
+- Chu, W.T., Castro, M.A., Cooper, T.K., Reza, S., Bartlinski, S., Bradley, D., Anthony, S.M., Worwa, G., Finch, C.L., Kuhn, J.H., Crozier, I., Solomon, J. “Machine-learning classification of SARS-CoV-2 infection in nonhuman primates using radiomics and blood biomarkers.” (In Preparation)
+
+#### mRMR-Permute uses mRMR by Peng et al., please see the below citation for more information:
+- Peng, H., Long, F., & Ding, C. (2005). Feature selection based on mutual information: Criteria of max-dependency, max-relevance, and min-redundancy. IEEE Transactions on Pattern Analysis and Machine Intelligence, 27(8), 1226–1238. https://doi.org/10.1109/TPAMI.2005.159
