@@ -1,2 +1,39 @@
-# IRF_ML_SARSCoV2_pub
-Machine learning to classify SARs-CoV-2 vs. Mock in NHP
+# NIH_COVID_Radiomics-ClinPath
+Traditional machine learning to classify SARs-CoV-2 vs. Mock in NHP
+Input Data: Radiomic features and clinical pathology measures
+
+analysis_status contains files that are concatenated to create the current analysis note
+
+# Project Summary
+
+#### Goal
+- Determine features most relevant to prediction of SARS-CoV-2 vs. Mock
+- Build a ML model for automatic classification of SARS-CoV-2 vs. Mock
+    - Build a foundation for future work in severity classification & translation to humans
+
+#### Data
+- 12 SARs-CoV-2 & 8 Mock Cynomolgus monkeys
+- 4 time points: BL, 2, 4, & 6 days post-infection
+- Radiomics measures calculated off of CT scan of lung & whole body
+- Clinical pathology and immunology measures calculated off of blood sample analyses
+
+#### Approach & Notebook Organization
+1) Preprocessing\
+    a) Reshape & reformat radiomics data\
+        - Calculate change from baseline\
+    b) Reshape & reformat clinical pathology data\
+        - Calculate change from baseline\
+    c) Reshape & reformat immunology data\
+        - Calculate change from baseline\
+    d) Merge radiomics and clinical pathology data\
+2) Run exploratory analyses
+    - Classic statistics
+    - Data Visualization
+3) Feature Selection
+    - Relevance threshold (f-stat, MI, chi2)
+    - Minimum redundancy, maximum relevance (mRMR)
+4) Machine Learning
+    - Models
+    - Evaluation of performance
+    - Effect of confounding variables
+5) Comparison of model performance
