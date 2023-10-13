@@ -1,6 +1,11 @@
 # IRF_ML_SARSCoV2_pub
 Traditional machine learning to classify SARs-CoV-2 vs. Mock in NHP
 
+When referencing this work, please cite:
+
+Chu, W.T., Castro, M.A., Cooper, T.K., Reza, S., Bartlinski, S., Bradley, D., Anthony, S.M., Worwa, G., Finch, C.L., Kuhn, J.H., Crozier, I., Solomon, J. “Machine-learning classification of SARS-CoV-2 infection in nonhuman primates using radiomics and blood biomarkers.” (In Preparation)
+
+
 ## Project Summary
 
 ### Goal
@@ -36,8 +41,6 @@ Traditional machine learning to classify SARs-CoV-2 vs. Mock in NHP
 5) Comparison of model performance
 
 ### Citations
-#### When referencing this work, please cite:
-- Chu, W.T., Castro, M.A., Cooper, T.K., Reza, S., Bartlinski, S., Bradley, D., Anthony, S.M., Worwa, G., Finch, C.L., Kuhn, J.H., Crozier, I., Solomon, J. “Machine-learning classification of SARS-CoV-2 infection in nonhuman primates using radiomics and blood biomarkers.” (In Preparation)
 
 #### mRMR-Permute uses mRMR by Peng et al., please see the below citation for more information:
 - Peng, H., Long, F., & Ding, C. (2005). Feature selection based on mutual information: Criteria of max-dependency, max-relevance, and min-redundancy. IEEE Transactions on Pattern Analysis and Machine Intelligence, 27(8), 1226–1238. https://doi.org/10.1109/TPAMI.2005.159
