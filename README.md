@@ -1,5 +1,5 @@
 # IRF_ML_SARSCoV2_pub
-Traditional machine learning to classify SARs-CoV-2 vs. Mock in NHP
+Classical machine learning to classify SARs-CoV-2 vs. Mock in NHP
 
 When referencing this work, please cite:
 
