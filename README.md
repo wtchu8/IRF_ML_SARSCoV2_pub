@@ -3,7 +3,7 @@ Classical machine learning to classify SARs-CoV-2 vs. Mock in NHP
 
 When referencing this work, please cite:
 
-Chu, W.T., Castro, M.A., Cooper, T.K., Reza, S., Bartlinski, S., Bradley, D., Anthony, S.M., Worwa, G., Finch, C.L., Kuhn, J.H., Crozier, I., Solomon, J. “Machine-learning classification of SARS-CoV-2 infection in nonhuman primates using radiomics and blood biomarkers.” (In Preparation)
+Chu, W. T., Castro, M. A., Reza, S., Cooper, T. K., Bartlinski, S., Bradley, D., Anthony, S. M., Worwa, G., Finch, C. L., Kuhn, J. H., Crozier, I., & Solomon, J. (2023). Novel machine-learning analysis of SARS-CoV-2 infection in a subclinical nonhuman primate model using radiomics and blood biomarkers. Scientific Reports, 13(1), 19607. https://doi.org/10.1038/s41598-023-46694-9
 
 
 ## Project Summary
